@@ -26,7 +26,7 @@ function optionChanged(newSample){
 // Function to set up metadata
 function buildMetaData(sample){
     // Extract relevant metadata for selected sample
-    d3.json("samples.json").then((data)=>{
+    d3.json("./static/js/samples.json").then((data)=>{
         let metaData=data.metadata;
         let selectSample=metaData.filter(sampleObjs=>sampleObjs.id==sample);
         result=selectSample[0];
@@ -40,7 +40,7 @@ function buildMetaData(sample){
 // Function to build charts
 function buildCharts(sample){
     // Extract relevant metadata for selected sample
-    d3.json("samples.json").then(sdata=>{
+    d3.json("./static/js/samples.json").then(sdata=>{
         let samples=sdata.samples;
         let selectSample=samples.filter(sampleObj=>sampleObj.id==sample);
         let result=selectSample[0];
