@@ -2,7 +2,7 @@
 function init(){
     let selector=d3.selectAll("#selDataset");
     //Build dropdown list
-    d3.json("samples.json").then((data)=>{
+    d3.json("./static/js/samples.json").then((data)=>{
         console.log(data);
         let sampleNames=data.names;
         sampleNames.forEach(name => {
