@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/90650562/151721468-9398f3d7-76b7-4af4-b673-4b9ba9540e30.png)
 
-This project was undertaken in partnership with Improbable Beef to identify a bacterial strain that can synthesize proteins that taste like Beef. The hypothesis is that it can be found in the human body, particulary the belly button. Samples were collected from 153 candidates and studied to identify the bacterial strains available. A dashboard was developed to display the results of the study. The dashboard contains the following components:
+This project was undertaken in partnership with Improbable Beef to identify a bacterial strain that can synthesize proteins that taste like Beef. The hypothesis is that it can be found in the human body, particulary the belly button. Samples were collected from 153 candidates and studied to identify the bacterial strains available. A dashboard was developed using Javascript and HTML/CSS to display the results of the study. The charts were generated and customized using D3 and Plotly. The dashboard contains the following components:
 
 - A dropdown with the list of candidates. Based on the selection, the below components dynamically change
     - A info box with the details of the candidate
